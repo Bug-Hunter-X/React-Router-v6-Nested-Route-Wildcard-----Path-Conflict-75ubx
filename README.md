@@ -1,0 +1,3 @@
+This repository demonstrates a subtle bug in React Router v6 related to nested routes and wildcard paths.  When a route with a wildcard path (*) is nested within a parent route, and that parent route has sibling routes, the sibling routes are unexpectedly ignored. Only the wildcard path is ever matched, regardless of the URL.
+
+The `bug.js` file shows the problematic code.  The `bugSolution.js` file demonstrates a solution.
